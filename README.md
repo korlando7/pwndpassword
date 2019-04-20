@@ -20,11 +20,11 @@ to your dependencies
 
 ## Usage
 
-import the package into your project and then use the `pwnd` function
+import the package into your project and then use the `pwnd?` function
 
 ```clojure
 (ns yournamespace
-  (:require [pwndpassword :refer [pwnd?]]))
+  (:require [pwndpassword.core :refer [pwnd?]]))
 
 (pwnd? "passwordtocheck") ; returns true or false
 ```
