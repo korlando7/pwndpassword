@@ -26,12 +26,11 @@
       re-pattern
       (re-find body)))
 
-(defn pwnd [pass]
+(defn pwnd? [pass]
   (-> pass
-    hash-subs
-    get-search-result
-    find-pass
-    some?))
+      hash-subs
+      get-search-result
+      find-pass
+      some?))
 
-(defn -main [& args]
-  (println (-> "helloworld" pwnd)))
+(defn -main [& args])
