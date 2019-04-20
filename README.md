@@ -1,5 +1,7 @@
 # pwndpassword
 
+[![Clojars Project](https://img.shields.io/clojars/v/pwndpassword.svg)](https://clojars.org/pwndpassword)
+
 Tests if a given password has been pwned using the haveibeenpwned.com API.
 
 Inspired by this node.js implementation [here](https://github.com/jamiebuilds/havetheybeenpwned)
